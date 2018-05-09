@@ -1,0 +1,5 @@
+Pt:
+Interpretador para uma nova linguagem de programação que embute ideias de programação orientada a objetos: SmallOO.
+
+En:
+Interpreter for a new programming language that embeds object-oriented programming ideas: SmallOO.
