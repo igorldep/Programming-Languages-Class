@@ -1,0 +1,18 @@
+697  g++ -o sooi $(find ./ -type f -name '*.cpp')
+
+  698  ./sooi ../examples/boxes.soo 
+
+
+
+  699  gedit lexical/TokenType.h 
+  700  history
+  701  cat history >> compilacao.txt
+  702  history >> compilacao.txt
+
+
+
+
+git remote rm origin
+git remote add origin https//.........
+git push origin master
+git push origin master --force
