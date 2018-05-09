@@ -1,0 +1,4 @@
+a = "haha a";
+system.println(system.substring(a, 1, 2));
+system.abort("deu merda");
+system.println("kk nem deu");

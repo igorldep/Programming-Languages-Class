@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sooi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/sooi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="interpreter/command/AssignCommand.cpp" />
+		<Unit filename="interpreter/command/AssignCommand.h" />
+		<Unit filename="interpreter/command/Command.h" />
+		<Unit filename="interpreter/command/CommandsBlock.cpp" />
+		<Unit filename="interpreter/command/CommandsBlock.h" />
+		<Unit filename="interpreter/command/IfCommand.cpp" />
+		<Unit filename="interpreter/command/IfCommand.h" />
+		<Unit filename="interpreter/command/WhileCommand.cpp" />
+		<Unit filename="interpreter/command/WhileCommand.h" />
+		<Unit filename="interpreter/expr/AccessExpr.cpp" />
+		<Unit filename="interpreter/expr/AccessExpr.h" />
+		<Unit filename="interpreter/expr/BoolExpr.h" />
+		<Unit filename="interpreter/expr/BoolOp.h" />
+		<Unit filename="interpreter/expr/Command.h" />
+		<Unit filename="interpreter/expr/CompositeBoolExpr.cpp" />
+		<Unit filename="interpreter/expr/CompositeBoolExpr.h" />
+		<Unit filename="interpreter/expr/CompositeExpr.cpp" />
+		<Unit filename="interpreter/expr/CompositeExpr.h" />
+		<Unit filename="interpreter/expr/ConstExpr.cpp" />
+		<Unit filename="interpreter/expr/ConstExpr.h" />
+		<Unit filename="interpreter/expr/Expr.h" />
+		<Unit filename="interpreter/expr/FunctionCallExpr.cpp" />
+		<Unit filename="interpreter/expr/FunctionCallExpr.h" />
+		<Unit filename="interpreter/expr/FunctionRhs.cpp" />
+		<Unit filename="interpreter/expr/FunctionRhs.h" />
+		<Unit filename="interpreter/expr/NotBoolExpr.cpp" />
+		<Unit filename="interpreter/expr/NotBoolExpr.h" />
+		<Unit filename="interpreter/expr/RelOp.h" />
+		<Unit filename="interpreter/expr/Rhs.h" />
+		<Unit filename="interpreter/expr/SingleBoolExpr.cpp" />
+		<Unit filename="interpreter/expr/SingleBoolExpr.h" />
+		<Unit filename="interpreter/util/AccessPath.cpp" />
+		<Unit filename="interpreter/util/AccessPath.h" />
+		<Unit filename="interpreter/util/Arguments.cpp" />
+		<Unit filename="interpreter/util/Arguments.h" />
+		<Unit filename="interpreter/util/Function.cpp" />
+		<Unit filename="interpreter/util/Function.h" />
+		<Unit filename="interpreter/util/Global.cpp" />
+		<Unit filename="interpreter/util/Global.h" />
+		<Unit filename="interpreter/util/Instance.cpp" />
+		<Unit filename="interpreter/util/Instance.h" />
+		<Unit filename="interpreter/util/InterpreterError.cpp" />
+		<Unit filename="interpreter/util/InterpreterError.h" />
+		<Unit filename="interpreter/util/Memory.cpp" />
+		<Unit filename="interpreter/util/Memory.h" />
+		<Unit filename="interpreter/util/SpecialFunction.cpp" />
+		<Unit filename="interpreter/util/SpecialFunction.h" />
+		<Unit filename="interpreter/util/StandardFunction.cpp" />
+		<Unit filename="interpreter/util/StandardFunction.h" />
+		<Unit filename="interpreter/util/Util.h" />
+		<Unit filename="interpreter/value/FunctionValue.cpp" />
+		<Unit filename="interpreter/value/FunctionValue.h" />
+		<Unit filename="interpreter/value/InstanceValue.cpp" />
+		<Unit filename="interpreter/value/InstanceValue.h" />
+		<Unit filename="interpreter/value/IntegerValue.cpp" />
+		<Unit filename="interpreter/value/IntegerValue.h" />
+		<Unit filename="interpreter/value/StringValue.cpp" />
+		<Unit filename="interpreter/value/StringValue.h" />
+		<Unit filename="interpreter/value/Type.h" />
+		<Unit filename="interpreter/value/Value.h" />
+		<Unit filename="lexical/LexicalAnalysis.cpp" />
+		<Unit filename="lexical/LexicalAnalysis.h" />
+		<Unit filename="lexical/SymbolTable.cpp" />
+		<Unit filename="lexical/SymbolTable.h" />
+		<Unit filename="lexical/TokenType.h" />
+		<Unit filename="sooi.cpp" />
+		<Unit filename="syntatic/SyntaticAnalysis.cpp" />
+		<Unit filename="syntatic/SyntaticAnalysis.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
