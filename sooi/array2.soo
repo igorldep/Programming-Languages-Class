@@ -1,0 +1,55 @@
+array.size = 0;
+
+array.add = function {
+  system.set(self, ("element" + self.size), args.arg1);
+  self.size = self.size + 1;
+};
+
+array.get = function {
+  return system.get(self, ("element" + args.arg1));
+};
+
+array.print = function {
+  system.print("[ ");
+  i = 0;
+  while (i < self.size) {
+    system.print(system.get(self, ("element" + i)) + " ");
+    i = i + 1;
+  }
+  system.println("]");
+};
+
+n = system.read("Entre c/ a qtd de numeros: ");
+while (array.size < n) {
+  x = system.random(0, 9);
+  array.add(x);
+}
+
+array2 = system.clone(array);
+
+y = system.random(0, 9);
+array2.add(y);
+
+array.print();
+
+system.println(y);
+
+array2.sort = function {
+  a = 0;
+  while (a < self.size) {
+    b = a + 1;
+    while (b < self.size) {
+      x = system.get(self, ("element" + a));
+      y = system.get(self, ("element" + b));
+      if (y < x) {
+        system.set(self, ("element" + a), y);
+        system.set(self, ("element" + b), x);
+      }
+      b = b + 1;
+    }
+    a = a + 1;
+  }
+};
+
+array2.sort();
+array2.print();

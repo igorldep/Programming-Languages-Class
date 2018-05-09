@@ -1,0 +1,612 @@
+# depslib dependency file v1.0
+1525785576 source:c:\users\aluno\desktop\sooi\interpreter\command\assigncommand.cpp
+	"AssignCommand.h"
+	"../value/Type.h"
+	"../expr/Rhs.h"
+	"../util/AccessPath.h"
+
+1525785578 c:\users\aluno\desktop\sooi\interpreter\command\assigncommand.h
+	"Command.h"
+
+1525785578 c:\users\aluno\desktop\sooi\interpreter\command\command.h
+
+1525785656 c:\users\aluno\desktop\sooi\interpreter\value\type.h
+
+1525785614 c:\users\aluno\desktop\sooi\interpreter\expr\rhs.h
+
+1525785620 c:\users\aluno\desktop\sooi\interpreter\util\accesspath.h
+	<list>
+	<string>
+
+1525785580 source:c:\users\aluno\desktop\sooi\interpreter\command\commandsblock.cpp
+	"CommandsBlock.h"
+
+1525785582 c:\users\aluno\desktop\sooi\interpreter\command\commandsblock.h
+	"Command.h"
+	<list>
+
+1525785590 source:c:\users\aluno\desktop\sooi\interpreter\expr\accessexpr.cpp
+	"AccessExpr.h"
+	"../util/AccessPath.h"
+
+1525785592 c:\users\aluno\desktop\sooi\interpreter\expr\accessexpr.h
+	"Expr.h"
+
+1525785606 c:\users\aluno\desktop\sooi\interpreter\expr\expr.h
+	"Rhs.h"
+
+1525785602 source:c:\users\aluno\desktop\sooi\interpreter\expr\constexpr.cpp
+	"ConstExpr.h"
+
+1525785602 c:\users\aluno\desktop\sooi\interpreter\expr\constexpr.h
+	"Expr.h"
+
+1525785608 source:c:\users\aluno\desktop\sooi\interpreter\expr\functioncallexpr.cpp
+	"FunctionCallExpr.h"
+	<sstream>
+	<iostream>
+	"../util/Arguments.h"
+	"../util/Function.h"
+	"../util/AccessPath.h"
+	"../util/InterpreterError.h"
+	"../value/FunctionValue.h"
+
+1525785608 c:\users\aluno\desktop\sooi\interpreter\expr\functioncallexpr.h
+	"Expr.h"
+	<vector>
+
+1525785622 c:\users\aluno\desktop\sooi\interpreter\util\arguments.h
+	"Instance.h"
+
+1525785636 c:\users\aluno\desktop\sooi\interpreter\util\memory.h
+	<map>
+	<string>
+
+1525785626 c:\users\aluno\desktop\sooi\interpreter\util\function.h
+
+1525785634 c:\users\aluno\desktop\sooi\interpreter\util\interpretererror.h
+	<string>
+
+1525785648 c:\users\aluno\desktop\sooi\interpreter\value\functionvalue.h
+	"Value.h"
+
+1525785658 c:\users\aluno\desktop\sooi\interpreter\value\value.h
+	"Type.h"
+
+1525785618 source:c:\users\aluno\desktop\sooi\interpreter\util\accesspath.cpp
+	"AccessPath.h"
+	<sstream>
+	"Global.h"
+	"Memory.h"
+	"Instance.h"
+	"Arguments.h"
+	"InterpreterError.h"
+	"../value/Type.h"
+	"../value/IntegerValue.h"
+	"../value/InstanceValue.h"
+
+1525785628 c:\users\aluno\desktop\sooi\interpreter\util\global.h
+	"Memory.h"
+
+1525785630 c:\users\aluno\desktop\sooi\interpreter\util\instance.h
+	"Memory.h"
+
+1525785652 c:\users\aluno\desktop\sooi\interpreter\value\integervalue.h
+	"Value.h"
+
+1525785650 c:\users\aluno\desktop\sooi\interpreter\value\instancevalue.h
+	"Value.h"
+
+1525785622 source:c:\users\aluno\desktop\sooi\interpreter\util\arguments.cpp
+	"Arguments.h"
+
+1525785624 source:c:\users\aluno\desktop\sooi\interpreter\util\function.cpp
+	"Function.h"
+	"../value/IntegerValue.h"
+
+1525785628 source:c:\users\aluno\desktop\sooi\interpreter\util\global.cpp
+	"Global.h"
+	"Instance.h"
+	"SpecialFunction.h"
+	"../value/FunctionValue.h"
+	"../value/InstanceValue.h"
+
+1525785638 c:\users\aluno\desktop\sooi\interpreter\util\specialfunction.h
+	"Function.h"
+
+1525785630 source:c:\users\aluno\desktop\sooi\interpreter\util\instance.cpp
+	"Instance.h"
+
+1525785632 source:c:\users\aluno\desktop\sooi\interpreter\util\interpretererror.cpp
+	"InterpreterError.h"
+	<cstdio>
+	<cstdlib>
+
+1525785634 source:c:\users\aluno\desktop\sooi\interpreter\util\memory.cpp
+	"Memory.h"
+	"../value/IntegerValue.h"
+
+1525785636 source:c:\users\aluno\desktop\sooi\interpreter\util\specialfunction.cpp
+	"SpecialFunction.h"
+	<ctime>
+	<cstdio>
+	<string>
+	<cstdlib>
+	<iostream>
+	"Arguments.h"
+	"InterpreterError.h"
+	"../value/StringValue.h"
+	"../value/IntegerValue.h"
+	"../value/InstanceValue.h"
+	"../value/FunctionValue.h"
+
+1525785654 c:\users\aluno\desktop\sooi\interpreter\value\stringvalue.h
+	"Value.h"
+	<string>
+
+1525785644 source:c:\users\aluno\desktop\sooi\interpreter\value\functionvalue.cpp
+	"FunctionValue.h"
+
+1525785648 source:c:\users\aluno\desktop\sooi\interpreter\value\instancevalue.cpp
+	"InstanceValue.h"
+
+1525785652 source:c:\users\aluno\desktop\sooi\interpreter\value\integervalue.cpp
+	"IntegerValue.h"
+
+1525785654 source:c:\users\aluno\desktop\sooi\interpreter\value\stringvalue.cpp
+	"StringValue.h"
+
+1523979134 source:c:\users\aluno\desktop\sooi\lexical\lexicalanalysis.cpp
+	<cstdio>
+	<cctype>
+	"LexicalAnalysis.h"
+	"TokenType.h"
+
+1525785562 c:\users\aluno\desktop\sooi\lexical\lexicalanalysis.h
+	<cstdio>
+	<string>
+	"TokenType.h"
+	"SymbolTable.h"
+
+1525785566 c:\users\aluno\desktop\sooi\lexical\tokentype.h
+
+1525785564 c:\users\aluno\desktop\sooi\lexical\symboltable.h
+	<map>
+	<string>
+	"TokenType.h"
+
+1525785564 source:c:\users\aluno\desktop\sooi\lexical\symboltable.cpp
+	"SymbolTable.h"
+
+1525785550 source:c:\users\aluno\desktop\sooi\sooi.cpp
+	<iostream>
+	"lexical/LexicalAnalysis.h"
+	"syntatic/SyntaticAnalysis.h"
+	"interpreter/command/Command.h"
+
+1525785572 c:\users\aluno\desktop\sooi\syntatic\syntaticanalysis.h
+	"../interpreter/expr/RelOp.h"
+	"../lexical/LexicalAnalysis.h"
+	<map>
+
+1525785570 source:c:\users\aluno\desktop\sooi\syntatic\syntaticanalysis.cpp
+	<iostream>
+	<cstdlib>
+	"SyntaticAnalysis.h"
+	"../interpreter/command/AssignCommand.h"
+	"../interpreter/command/Command.h"
+	"../interpreter/command/CommandsBlock.h"
+	"../interpreter/command/IfCommand.h"
+	"../interpreter/command/WhileCommand.h"
+	"../interpreter/expr/AccessExpr.h"
+	"../interpreter/expr/BoolExpr.h"
+	"../interpreter/expr/CompositeBoolExpr.h"
+	"../interpreter/expr/CompositeExpr.h"
+	"../interpreter/expr/ConstExpr.h"
+	"../interpreter/expr/Expr.h"
+	"../interpreter/expr/FunctionCallExpr.h"
+	"../interpreter/expr/FunctionRhs.h"
+	"../interpreter/expr/NotBoolExpr.h"
+	"../interpreter/expr/Rhs.h"
+	"../interpreter/expr/RelOp.h"
+	"../interpreter/expr/SingleBoolExpr.h"
+	"../interpreter/util/AccessPath.h"
+	"../interpreter/util/StandardFunction.h"
+	"../interpreter/value/IntegerValue.h"
+	"../interpreter/value/FunctionValue.h"
+	"../interpreter/value/StringValue.h"
+
+1523423970 source:c:\users\edu\desktop\sooi\interpreter\command\assigncommand.cpp
+	"AssignCommand.h"
+	"../value/Type.h"
+	"../expr/Rhs.h"
+	"../util/AccessPath.h"
+
+1522784218 c:\users\edu\desktop\sooi\interpreter\command\assigncommand.h
+	"Command.h"
+
+1522784219 c:\users\edu\desktop\sooi\interpreter\command\command.h
+
+1522784224 c:\users\edu\desktop\sooi\interpreter\value\type.h
+
+1522784219 c:\users\edu\desktop\sooi\interpreter\expr\rhs.h
+
+1524690648 c:\users\edu\desktop\sooi\interpreter\util\accesspath.h
+	<list>
+	<string>
+
+1522784219 source:c:\users\edu\desktop\sooi\interpreter\command\commandsblock.cpp
+	"CommandsBlock.h"
+
+1522784218 c:\users\edu\desktop\sooi\interpreter\command\commandsblock.h
+	"Command.h"
+	<list>
+
+1522784219 source:c:\users\edu\desktop\sooi\interpreter\expr\accessexpr.cpp
+	"AccessExpr.h"
+	"../util/AccessPath.h"
+
+1522784219 c:\users\edu\desktop\sooi\interpreter\expr\accessexpr.h
+	"Expr.h"
+
+1522784219 c:\users\edu\desktop\sooi\interpreter\expr\expr.h
+	"Rhs.h"
+
+1522784219 source:c:\users\edu\desktop\sooi\interpreter\expr\constexpr.cpp
+	"ConstExpr.h"
+
+1522784219 c:\users\edu\desktop\sooi\interpreter\expr\constexpr.h
+	"Expr.h"
+
+1524015086 source:c:\users\edu\desktop\sooi\interpreter\expr\functioncallexpr.cpp
+	"FunctionCallExpr.h"
+	<sstream>
+	<iostream>
+	"../util/Arguments.h"
+	"../util/Function.h"
+	"../util/AccessPath.h"
+	"../util/InterpreterError.h"
+	"../value/FunctionValue.h"
+
+1522784219 c:\users\edu\desktop\sooi\interpreter\expr\functioncallexpr.h
+	"Expr.h"
+	<vector>
+
+1523993587 c:\users\edu\desktop\sooi\interpreter\util\arguments.h
+	"Instance.h"
+
+1524092126 c:\users\edu\desktop\sooi\interpreter\util\memory.h
+	<map>
+	<string>
+
+1522784221 c:\users\edu\desktop\sooi\interpreter\util\function.h
+
+1523833599 c:\users\edu\desktop\sooi\interpreter\util\interpretererror.h
+	<string>
+
+1522784224 c:\users\edu\desktop\sooi\interpreter\value\functionvalue.h
+	"Value.h"
+
+1522784224 c:\users\edu\desktop\sooi\interpreter\value\value.h
+	"Type.h"
+
+1524690647 source:c:\users\edu\desktop\sooi\interpreter\util\accesspath.cpp
+	"AccessPath.h"
+	<sstream>
+	"Global.h"
+	"Memory.h"
+	"Instance.h"
+	"Arguments.h"
+	"InterpreterError.h"
+	"../value/Type.h"
+	"../value/IntegerValue.h"
+	"../value/InstanceValue.h"
+
+1522784221 c:\users\edu\desktop\sooi\interpreter\util\global.h
+	"Memory.h"
+
+1524092094 c:\users\edu\desktop\sooi\interpreter\util\instance.h
+	"Memory.h"
+
+1522784224 c:\users\edu\desktop\sooi\interpreter\value\integervalue.h
+	"Value.h"
+
+1523826056 c:\users\edu\desktop\sooi\interpreter\value\instancevalue.h
+	"Value.h"
+
+1522784220 source:c:\users\edu\desktop\sooi\interpreter\util\arguments.cpp
+	"Arguments.h"
+
+1522784221 source:c:\users\edu\desktop\sooi\interpreter\util\function.cpp
+	"Function.h"
+	"../value/IntegerValue.h"
+
+1525790094 source:c:\users\edu\desktop\sooi\interpreter\util\global.cpp
+	"Global.h"
+	"Instance.h"
+	"SpecialFunction.h"
+	"../value/FunctionValue.h"
+	"../value/InstanceValue.h"
+
+1525789828 c:\users\edu\desktop\sooi\interpreter\util\specialfunction.h
+	"Function.h"
+
+1524092082 source:c:\users\edu\desktop\sooi\interpreter\util\instance.cpp
+	"Instance.h"
+
+1523833560 source:c:\users\edu\desktop\sooi\interpreter\util\interpretererror.cpp
+	"InterpreterError.h"
+	<cstdio>
+	<cstdlib>
+
+1524092660 source:c:\users\edu\desktop\sooi\interpreter\util\memory.cpp
+	"Memory.h"
+	"../value/IntegerValue.h"
+
+1525789877 source:c:\users\edu\desktop\sooi\interpreter\util\specialfunction.cpp
+	"SpecialFunction.h"
+	<ctime>
+	<cstdio>
+	<string>
+	<cstdlib>
+	<iostream>
+	"Arguments.h"
+	"InterpreterError.h"
+	"../value/StringValue.h"
+	"../value/IntegerValue.h"
+	"../value/InstanceValue.h"
+	"../value/FunctionValue.h"
+
+1522784225 c:\users\edu\desktop\sooi\interpreter\value\stringvalue.h
+	"Value.h"
+	<string>
+
+1522784223 source:c:\users\edu\desktop\sooi\interpreter\value\functionvalue.cpp
+	"FunctionValue.h"
+
+1522784224 source:c:\users\edu\desktop\sooi\interpreter\value\instancevalue.cpp
+	"InstanceValue.h"
+
+1522784224 source:c:\users\edu\desktop\sooi\interpreter\value\integervalue.cpp
+	"IntegerValue.h"
+
+1522784224 source:c:\users\edu\desktop\sooi\interpreter\value\stringvalue.cpp
+	"StringValue.h"
+
+1524086935 source:c:\users\edu\desktop\sooi\lexical\lexicalanalysis.cpp
+	<cstdio>
+	<cctype>
+	"LexicalAnalysis.h"
+	"TokenType.h"
+
+1522784217 c:\users\edu\desktop\sooi\lexical\lexicalanalysis.h
+	<cstdio>
+	<string>
+	"TokenType.h"
+	"SymbolTable.h"
+
+1524086920 c:\users\edu\desktop\sooi\lexical\tokentype.h
+
+1522784217 c:\users\edu\desktop\sooi\lexical\symboltable.h
+	<map>
+	<string>
+	"TokenType.h"
+
+1524086930 source:c:\users\edu\desktop\sooi\lexical\symboltable.cpp
+	"SymbolTable.h"
+
+1523421356 source:c:\users\edu\desktop\sooi\sooi.cpp
+	<iostream>
+	"lexical/LexicalAnalysis.h"
+	"syntatic/SyntaticAnalysis.h"
+	"interpreter/command/Command.h"
+
+1523815503 c:\users\edu\desktop\sooi\syntatic\syntaticanalysis.h
+	"../interpreter/expr/RelOp.h"
+	"../lexical/LexicalAnalysis.h"
+	<map>
+
+1524089024 source:c:\users\edu\desktop\sooi\syntatic\syntaticanalysis.cpp
+	<iostream>
+	<cstdlib>
+	"SyntaticAnalysis.h"
+	"../interpreter/command/AssignCommand.h"
+	"../interpreter/command/Command.h"
+	"../interpreter/command/CommandsBlock.h"
+	"../interpreter/command/IfCommand.h"
+	"../interpreter/command/WhileCommand.h"
+	"../interpreter/expr/AccessExpr.h"
+	"../interpreter/expr/BoolExpr.h"
+	"../interpreter/expr/CompositeBoolExpr.h"
+	"../interpreter/expr/CompositeExpr.h"
+	"../interpreter/expr/ConstExpr.h"
+	"../interpreter/expr/Expr.h"
+	"../interpreter/expr/FunctionCallExpr.h"
+	"../interpreter/expr/FunctionRhs.h"
+	"../interpreter/expr/Rhs.h"
+	"../interpreter/expr/RelOp.h"
+	"../interpreter/expr/SingleBoolExpr.h"
+	"../interpreter/util/AccessPath.h"
+	"../interpreter/util/StandardFunction.h"
+	"../interpreter/value/IntegerValue.h"
+	"../interpreter/value/FunctionValue.h"
+	"../interpreter/value/StringValue.h"
+
+1523416604 source:c:\users\edu\desktop\sooi\interpreter\command\ifcommand.cpp
+	"IfCommand.h"
+	"Command.h"
+	"../value/Type.h"
+	"../expr/BoolExpr.h"
+
+1524084830 c:\users\edu\desktop\sooi\interpreter\command\ifcommand.h
+	"Command.h"
+
+1523417079 c:\users\edu\desktop\sooi\interpreter\expr\boolexpr.h
+
+1523416705 source:c:\users\edu\desktop\sooi\interpreter\command\whilecommand.cpp
+	"WhileCommand.h"
+	"Command.h"
+	"../value/Type.h"
+	"../command/Command.h"
+	"../expr/BoolExpr.h"
+	"../expr/Expr.h"
+
+1523389461 c:\users\edu\desktop\sooi\interpreter\command\whilecommand.h
+	"Command.h"
+
+1523833744 source:c:\users\edu\desktop\sooi\interpreter\expr\singleboolexpr.cpp
+	"SingleBoolExpr.h"
+	"../util/InterpreterError.h"
+	"../value/FunctionValue.h"
+	"../value/IntegerValue.h"
+	"../value/StringValue.h"
+	"../value/Type.h"
+	"../value/Value.h"
+	"Rhs.h"
+	"Expr.h"
+	"ConstExpr.h"
+
+1523465696 c:\users\edu\desktop\sooi\interpreter\expr\singleboolexpr.h
+	"BoolExpr.h"
+	"RelOp.h"
+
+1523420139 c:\users\edu\desktop\sooi\interpreter\expr\relop.h
+
+1523993577 c:\users\edu\desktop\sooi\interpreter\expr\functionrhs.h
+	"Rhs.h"
+
+1525785584 source:c:\users\aluno\desktop\sooi\interpreter\command\ifcommand.cpp
+	"IfCommand.h"
+	"Command.h"
+	"../value/Type.h"
+	"../expr/BoolExpr.h"
+
+1525785584 c:\users\aluno\desktop\sooi\interpreter\command\ifcommand.h
+	"Command.h"
+
+1525785594 c:\users\aluno\desktop\sooi\interpreter\expr\boolexpr.h
+
+1525785586 source:c:\users\aluno\desktop\sooi\interpreter\command\whilecommand.cpp
+	"WhileCommand.h"
+	"Command.h"
+	"../value/Type.h"
+	"../command/Command.h"
+	"../expr/BoolExpr.h"
+	"../expr/Expr.h"
+
+1525785588 c:\users\aluno\desktop\sooi\interpreter\command\whilecommand.h
+	"Command.h"
+
+1525785610 source:c:\users\aluno\desktop\sooi\interpreter\expr\functionrhs.cpp
+	"FunctionRhs.h"
+
+1525785610 c:\users\aluno\desktop\sooi\interpreter\expr\functionrhs.h
+	"Rhs.h"
+
+1525785616 source:c:\users\aluno\desktop\sooi\interpreter\expr\singleboolexpr.cpp
+	"SingleBoolExpr.h"
+	"../util/InterpreterError.h"
+	"../value/FunctionValue.h"
+	"../value/IntegerValue.h"
+	"../value/StringValue.h"
+	"../value/Type.h"
+	"../value/Value.h"
+	"Rhs.h"
+	"Expr.h"
+	"ConstExpr.h"
+
+1525785616 c:\users\aluno\desktop\sooi\interpreter\expr\singleboolexpr.h
+	"BoolExpr.h"
+	"RelOp.h"
+
+1525785612 c:\users\aluno\desktop\sooi\interpreter\expr\relop.h
+
+1525785640 source:c:\users\aluno\desktop\sooi\interpreter\util\standardfunction.cpp
+	"StandardFunction.h"
+	"Arguments.h"
+	"Instance.h"
+	"../command/Command.h"
+	"../expr/Rhs.h"
+	"../value/Type.h"
+
+1525785640 c:\users\aluno\desktop\sooi\interpreter\util\standardfunction.h
+	"Function.h"
+
+1523847032 source:c:\users\edu\desktop\sooi\interpreter\expr\functionrhs.cpp
+	"FunctionRhs.h"
+
+1524084835 c:\users\edu\desktop\sooi\interpreter\util\standardfunction.h
+	"Function.h"
+
+1524084923 source:c:\users\edu\desktop\sooi\interpreter\util\standardfunction.cpp
+	"StandardFunction.h"
+	"Arguments.h"
+	"Instance.h"
+	"../command/Command.h"
+	"../expr/Rhs.h"
+	"../value/Type.h"
+
+1524085762 source:c:\users\edu\desktop\sooi\interpreter\expr\compositeboolexpr.cpp
+	"CompositeBoolExpr.h"
+	"../util/InterpreterError.h"
+	"../value/FunctionValue.h"
+	"../value/IntegerValue.h"
+	"../value/StringValue.h"
+	"../value/Type.h"
+	"../value/Value.h"
+	"Rhs.h"
+	"Expr.h"
+	"ConstExpr.h"
+
+1524085718 c:\users\edu\desktop\sooi\interpreter\expr\compositeboolexpr.h
+	"BoolExpr.h"
+	"BoolOp.h"
+
+1524085667 c:\users\edu\desktop\sooi\interpreter\expr\boolop.h
+
+1524091051 source:c:\users\edu\desktop\sooi\interpreter\expr\compositeexpr.cpp
+	"CompositeExpr.h"
+	"../util/InterpreterError.h"
+	"../value/IntegerValue.h"
+	"../value/StringValue.h"
+	"../value/Type.h"
+	<sstream>
+
+1524088793 c:\users\edu\desktop\sooi\interpreter\expr\compositeexpr.h
+	"Expr.h"
+
+1525785598 source:c:\users\aluno\desktop\sooi\interpreter\expr\compositeboolexpr.cpp
+	"CompositeBoolExpr.h"
+	"../util/InterpreterError.h"
+	"../value/FunctionValue.h"
+	"../value/IntegerValue.h"
+	"../value/StringValue.h"
+	"../value/Type.h"
+	"../value/Value.h"
+	"Rhs.h"
+	"Expr.h"
+	"ConstExpr.h"
+
+1525785598 c:\users\aluno\desktop\sooi\interpreter\expr\compositeboolexpr.h
+	"BoolExpr.h"
+	"BoolOp.h"
+
+1525785594 c:\users\aluno\desktop\sooi\interpreter\expr\boolop.h
+
+1525785600 source:c:\users\aluno\desktop\sooi\interpreter\expr\compositeexpr.cpp
+	"CompositeExpr.h"
+	"../util/InterpreterError.h"
+	"../value/IntegerValue.h"
+	"../value/StringValue.h"
+	"../value/Type.h"
+	<sstream>
+
+1525785600 c:\users\aluno\desktop\sooi\interpreter\expr\compositeexpr.h
+	"Expr.h"
+
+1525785544 source:c:\users\aluno\desktop\sooi\interpreter\expr\notboolexpr.cpp
+	"NotBoolExpr.h"
+
+1525785544 c:\users\aluno\desktop\sooi\interpreter\expr\notboolexpr.h
+	"BoolExpr.h"
+

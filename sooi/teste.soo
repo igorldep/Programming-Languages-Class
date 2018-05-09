@@ -1,0 +1,8 @@
+a = system.read("Digite um numero entre 0 e 9: ");
+b = system.random(0, 9);
+while ( a != b ){
+	system.print("Errou!");
+	a = system.read(" Tente novamente: ");
+}
+system.print("Acertou! O numero correto era ");
+system.println(b);
